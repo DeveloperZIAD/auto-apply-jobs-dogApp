@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "wen to do apply jobs for me": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

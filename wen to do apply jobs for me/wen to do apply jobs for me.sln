@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "db", "..\db\db.csproj", "{BD993220-4AE3-4EA0-A8DA-170AF1718FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bus", "..\bus\bus.csproj", "{01DE680F-2AE9-4355-8876-54FB771E4233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerTheApp", "..\TheApp\WorkerTheApp.csproj", "{5AD69E23-7EAB-4374-9CCB-2DA37173829A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobBot.Scraper", "..\JobBot.Scraper\JobBot.Scraper.csproj", "{092DC0AB-F0F2-4FE8-B38A-1FACBC0C2971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobBotAutomation.Core", "..\JobBot.Core\JobBotAutomation.Core.csproj", "{FCBB6F85-9E89-42B8-8F43-E3DD128C06BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobBot.AI", "..\JobBot.AI\JobBot.AI.csproj", "{42276C09-0A1C-4F50-BCD1-C3D875FB51D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD993220-4AE3-4EA0-A8DA-170AF1718FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD993220-4AE3-4EA0-A8DA-170AF1718FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD993220-4AE3-4EA0-A8DA-170AF1718FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD993220-4AE3-4EA0-A8DA-170AF1718FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DE680F-2AE9-4355-8876-54FB771E4233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DE680F-2AE9-4355-8876-54FB771E4233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DE680F-2AE9-4355-8876-54FB771E4233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DE680F-2AE9-4355-8876-54FB771E4233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD69E23-7EAB-4374-9CCB-2DA37173829A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD69E23-7EAB-4374-9CCB-2DA37173829A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD69E23-7EAB-4374-9CCB-2DA37173829A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD69E23-7EAB-4374-9CCB-2DA37173829A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092DC0AB-F0F2-4FE8-B38A-1FACBC0C2971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092DC0AB-F0F2-4FE8-B38A-1FACBC0C2971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092DC0AB-F0F2-4FE8-B38A-1FACBC0C2971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092DC0AB-F0F2-4FE8-B38A-1FACBC0C2971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBB6F85-9E89-42B8-8F43-E3DD128C06BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBB6F85-9E89-42B8-8F43-E3DD128C06BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBB6F85-9E89-42B8-8F43-E3DD128C06BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBB6F85-9E89-42B8-8F43-E3DD128C06BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42276C09-0A1C-4F50-BCD1-C3D875FB51D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42276C09-0A1C-4F50-BCD1-C3D875FB51D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42276C09-0A1C-4F50-BCD1-C3D875FB51D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42276C09-0A1C-4F50-BCD1-C3D875FB51D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50BDCBF8-2D4A-4C3D-967C-B53CBAFF60D5}
+	EndGlobalSection
+EndGlobal

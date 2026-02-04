@@ -1,0 +1,21 @@
+# تجاهل مجلدات التشغيل والمخرجات
+[Bb]in/
+[Oo]bj/
+.vs/
+.vscode/
+
+# تجاهل ملفات الإعدادات التي تحتوي على بيانات حساسة
+appsettings.json
+appsettings.Development.json
+
+# تجاهل ملفات الجلسات (Sessions) لـ Playwright (عشان الكوكيز مفيش حد يسرقها)
+**/Sessions/
+**/Sessions/Glassdoor/
+
+# تجاهل ملفات قاعدة البيانات المحلية إذا كنت تستخدم SQLite أو ملفات MDF
+*.mdf
+*.ldf
+*.db
+
+# تجاهل ملفات السجلات (Logs)
+*.log

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\bus\bus.csproj" />
+    <ProjectReference Include="..\JobBot.AI\JobBot.AI.csproj" />
+    <ProjectReference Include="..\JobBot.Scraper\JobBot.Scraper.csproj" />
+  </ItemGroup>
+
+</Project>
